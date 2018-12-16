@@ -14,4 +14,12 @@ public class ModelManager {
     {
         return (T)models[name];
     }
+
+    private static ModelManager _instance;
+    public static ModelManager Instance { get { return _instance; } }
+
+    public UIView UIView;
+    public UICtrl UICtrl;
+
+    private bool isShow = false;
 }

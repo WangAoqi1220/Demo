@@ -25,4 +25,6 @@ public class UIModel : MonoBehaviour {
     {
         _modelDict.Remove(name);
     }
+
 }
+
