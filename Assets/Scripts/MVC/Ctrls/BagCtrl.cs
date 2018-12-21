@@ -26,7 +26,8 @@ public class BagCtrl : UICtrl
     protected override void OnShow()//在背包打开时才能打开Introduction
     {
         //条件判断是否点击图片
-        bagview.OpenInroductionPanel();
+        if (Input.GetMouseButtonDown(0))
+            bagview.OpenInroductionPanel();
     }
 	protected override void OnHide()
 	{

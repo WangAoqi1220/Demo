@@ -17,17 +17,17 @@ public class BagModel : UIModel {
     {
         ItemList = new Dictionary<int, Item>();
 
-        Collector w1 = new Collector(0, "钥匙", "一个不知道是哪儿的钥匙。", "bag key");
+        Collector w1 = new Collector(0, "钥匙", "\n一个不知道是哪儿的钥匙。", "bag key");
 
-        Collector w2 = new Collector(1, "信封", "一个信封，里面有一封信。", "bag letter");
+        Collector w2 = new Collector(1, "信封", "\n一个信封，里面有一封信。", "bag letter");
 
-        Collector w3 = new Collector(2, "报纸", "一份被翻阅得破旧的报纸。", "bag newspaper");
+        Collector w3 = new Collector(2, "报纸", "\n一份被翻阅得破旧的报纸。", "bag newspaper");
 
-        Collector w4 = new Collector(3, "试卷", "一张不及格的试卷，上面满是红×。", "bag test paper");
+        Collector w4 = new Collector(3, "试卷", "\n一张不及格的试卷，上面满是红×。", "bag test paper");
 
-        Consumable c1 = new Consumable(4, "红瓶", "加血", "blood bottle");
+        Consumable c1 = new Consumable(4, "红瓶", "\n加血", "blood bottle");
 
-        Consumable c2 = new Consumable(5, "蓝瓶", "加蓝", "mana bottle");
+        Consumable c2 = new Consumable(5, "蓝瓶", "\n加蓝", "mana bottle");
 
 
         ItemList.Add(w1.Id, w1);
